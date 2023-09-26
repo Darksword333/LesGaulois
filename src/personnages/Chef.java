@@ -18,7 +18,7 @@ public class Chef {
 	}
 	
 	public void parler(String texte) {
-		System.out.println(prendreParoles() + " « " + texte + " »");
+		System.out.println(prendreParoles() + " Â«  " + texte + " Â»");
 	}
 
 	private String prendreParoles() {
@@ -26,7 +26,7 @@ public class Chef {
 	}
 	
 	public void frapper(Romain romain) {
-		System.out.println(nom + "envoie un grand coup dans la mâchoire de " +  romain.getNom());
+		System.out.println(nom + "envoie un grand coup dans la mÃ¢choire de " +  romain.getNom());
 		romain.recevoirCoup(force/3);
 	}
 

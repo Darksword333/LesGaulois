@@ -19,7 +19,7 @@ public class Gaulois {
 	}
 	
 	public void parler(String texte) {
-		System.out.println(prendreParoles() + " « " + texte + " »");
+		System.out.println(prendreParoles() + " Â« " + texte + " Â»");
 	}
 
 	private String prendreParoles() {
@@ -27,7 +27,7 @@ public class Gaulois {
 	}
 
 	public void frapper(Romain romain) {
-		System.out.println(nom + " envoie un grand coup dans la mâchoire de " +  romain.getNom());
+		System.out.println(nom + " envoie un grand coup dans la mÃ¢choire de " +  romain.getNom());
 		romain.recevoirCoup(force/3);
 	}
 	
@@ -39,7 +39,7 @@ public class Gaulois {
 	
 	
 	public static void main(String[] args) {
-		Gaulois asterix = new Gaulois("Astérix", 8);
+		Gaulois asterix = new Gaulois("AstÃ©rix", 8);
 		System.out.println(asterix);
 		//System.out.println(asterix.getNom());
 		asterix.parler("Salut !");
